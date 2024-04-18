@@ -39,11 +39,11 @@ struct MusicSelectView: View {
     //                            }
                             }
                             Spacer()
-    //                        if (star == false){
-    //                            Image(systemName: "star").foregroundColor(.secondary)
-    //                        }else {
-    //                            Image(systemName: "star.fill").foregroundColor(.secondary)
-    //                        }
+                            if (song.star == false){
+                                Image(systemName: "star").foregroundColor(.secondary)
+                            }else {
+                                Image(systemName: "star.fill").foregroundColor(.secondary)
+                            }
                         }
     //                    .onLongPressGesture(perform: {isPressed.toggle()})
                         .contextMenu {
@@ -53,6 +53,7 @@ struct MusicSelectView: View {
                             }
                             Button(action: {
                                 print("즐겨찾기 눌림")
+//                                song.star
                             }, label: {
                                 Text("즐겨찾기")
                                 Image(systemName: "star").foregroundColor(.secondary)

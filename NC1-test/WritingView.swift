@@ -72,11 +72,11 @@ struct WritingView: View {
             .background(Color(red: 0.43, green: 0.43, blue: 0.43).opacity(0.5))
             .cornerRadius(16)
             
-            Picker("",selection: $writingType) {
-                ForEach(writeType, id: \.self) {
-                    Text($0)
-                }
-            }.pickerStyle(.segmented)
+//            Picker("",selection: $writingType) {
+//                ForEach(writeType, id: \.self) {
+//                    Text($0)
+//                }
+//            }.pickerStyle(.segmented)
             ZStack {
                 TextEditor(text: $typingText) //입력하는 곳
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -88,7 +88,7 @@ struct WritingView: View {
                 if typingText.isEmpty {
                     VStack {
                         HStack {
-                            Text("\(writingType)를 시작하세요...")
+                            Text("음악 기록을 시작하세요...")
                                 .padding(.top, 24)
                                 .foregroundColor(.white.opacity(0.7))
                                 .padding(.leading, 5)

@@ -11,7 +11,6 @@
 		890BD8EC2BD0F35B006B3880 /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8EB2BD0F35B006B3880 /* WritingView.swift */; };
 		890BD8EE2BD0F37A006B3880 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8ED2BD0F37A006B3880 /* Song.swift */; };
 		890BD8F02BD0F429006B3880 /* MainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 890BD8EF2BD0F429006B3880 /* MainButton.png */; };
-		890BD8F22BD0F43C006B3880 /* ViewWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8F12BD0F43C006B3880 /* ViewWriting.swift */; };
 		890BD8F42BD129AE006B3880 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8F32BD129AE006B3880 /* TestView.swift */; };
 		897A96382BCBB8CD003B546B /* NC1_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A96372BCBB8CD003B546B /* NC1_testApp.swift */; };
 		897A963A2BCBB8CD003B546B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A96392BCBB8CD003B546B /* ContentView.swift */; };
@@ -45,7 +44,6 @@
 		890BD8EB2BD0F35B006B3880 /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
 		890BD8ED2BD0F37A006B3880 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		890BD8EF2BD0F429006B3880 /* MainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MainButton.png; path = ../../../../Downloads/MainButton.png; sourceTree = "<group>"; };
-		890BD8F12BD0F43C006B3880 /* ViewWriting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWriting.swift; sourceTree = "<group>"; };
 		890BD8F32BD129AE006B3880 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		897A96342BCBB8CD003B546B /* NC1-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC1-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897A96372BCBB8CD003B546B /* NC1_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_testApp.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				890BD8E92BD0F344006B3880 /* MusicSelectView.swift */,
 				890BD8EB2BD0F35B006B3880 /* WritingView.swift */,
 				890BD8ED2BD0F37A006B3880 /* Song.swift */,
-				890BD8F12BD0F43C006B3880 /* ViewWriting.swift */,
 				890BD8F32BD129AE006B3880 /* TestView.swift */,
 			);
 			path = "NC1-test";
@@ -285,7 +282,6 @@
 				897A963C2BCBB8CD003B546B /* selectedSong.swift in Sources */,
 				890BD8F42BD129AE006B3880 /* TestView.swift in Sources */,
 				890BD8EC2BD0F35B006B3880 /* WritingView.swift in Sources */,
-				890BD8F22BD0F43C006B3880 /* ViewWriting.swift in Sources */,
 				897A96382BCBB8CD003B546B /* NC1_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
