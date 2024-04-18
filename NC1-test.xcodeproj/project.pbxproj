@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890BD8EA2BD0F344006B3880 /* MusicSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8E92BD0F344006B3880 /* MusicSelectView.swift */; };
+		890BD8EC2BD0F35B006B3880 /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8EB2BD0F35B006B3880 /* WritingView.swift */; };
+		890BD8EE2BD0F37A006B3880 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8ED2BD0F37A006B3880 /* Song.swift */; };
+		890BD8F02BD0F429006B3880 /* MainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 890BD8EF2BD0F429006B3880 /* MainButton.png */; };
+		890BD8F22BD0F43C006B3880 /* ViewWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8F12BD0F43C006B3880 /* ViewWriting.swift */; };
+		890BD8F42BD129AE006B3880 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD8F32BD129AE006B3880 /* TestView.swift */; };
 		897A96382BCBB8CD003B546B /* NC1_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A96372BCBB8CD003B546B /* NC1_testApp.swift */; };
 		897A963A2BCBB8CD003B546B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A96392BCBB8CD003B546B /* ContentView.swift */; };
-		897A963C2BCBB8CD003B546B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A963B2BCBB8CD003B546B /* Item.swift */; };
+		897A963C2BCBB8CD003B546B /* selectedSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A963B2BCBB8CD003B546B /* selectedSong.swift */; };
 		897A963E2BCBB8CF003B546B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897A963D2BCBB8CF003B546B /* Assets.xcassets */; };
 		897A96412BCBB8CF003B546B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897A96402BCBB8CF003B546B /* Preview Assets.xcassets */; };
 		897A964B2BCBB8CF003B546B /* NC1_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A964A2BCBB8CF003B546B /* NC1_testTests.swift */; };
@@ -35,10 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		890BD8E92BD0F344006B3880 /* MusicSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSelectView.swift; sourceTree = "<group>"; };
+		890BD8EB2BD0F35B006B3880 /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
+		890BD8ED2BD0F37A006B3880 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		890BD8EF2BD0F429006B3880 /* MainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MainButton.png; path = ../../../../Downloads/MainButton.png; sourceTree = "<group>"; };
+		890BD8F12BD0F43C006B3880 /* ViewWriting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWriting.swift; sourceTree = "<group>"; };
+		890BD8F32BD129AE006B3880 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		897A96342BCBB8CD003B546B /* NC1-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC1-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897A96372BCBB8CD003B546B /* NC1_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_testApp.swift; sourceTree = "<group>"; };
 		897A96392BCBB8CD003B546B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		897A963B2BCBB8CD003B546B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		897A963B2BCBB8CD003B546B /* selectedSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedSong.swift; sourceTree = "<group>"; };
 		897A963D2BCBB8CF003B546B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897A96402BCBB8CF003B546B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		897A96462BCBB8CF003B546B /* NC1-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC1-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,11 +108,17 @@
 		897A96362BCBB8CD003B546B /* NC1-test */ = {
 			isa = PBXGroup;
 			children = (
+				890BD8EF2BD0F429006B3880 /* MainButton.png */,
 				897A96372BCBB8CD003B546B /* NC1_testApp.swift */,
 				897A96392BCBB8CD003B546B /* ContentView.swift */,
-				897A963B2BCBB8CD003B546B /* Item.swift */,
+				897A963B2BCBB8CD003B546B /* selectedSong.swift */,
 				897A963D2BCBB8CF003B546B /* Assets.xcassets */,
 				897A963F2BCBB8CF003B546B /* Preview Content */,
+				890BD8E92BD0F344006B3880 /* MusicSelectView.swift */,
+				890BD8EB2BD0F35B006B3880 /* WritingView.swift */,
+				890BD8ED2BD0F37A006B3880 /* Song.swift */,
+				890BD8F12BD0F43C006B3880 /* ViewWriting.swift */,
+				890BD8F32BD129AE006B3880 /* TestView.swift */,
 			);
 			path = "NC1-test";
 			sourceTree = "<group>";
@@ -235,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				897A96412BCBB8CF003B546B /* Preview Assets.xcassets in Resources */,
+				890BD8F02BD0F429006B3880 /* MainButton.png in Resources */,
 				897A963E2BCBB8CF003B546B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890BD8EE2BD0F37A006B3880 /* Song.swift in Sources */,
+				890BD8EA2BD0F344006B3880 /* MusicSelectView.swift in Sources */,
 				897A963A2BCBB8CD003B546B /* ContentView.swift in Sources */,
-				897A963C2BCBB8CD003B546B /* Item.swift in Sources */,
+				897A963C2BCBB8CD003B546B /* selectedSong.swift in Sources */,
+				890BD8F42BD129AE006B3880 /* TestView.swift in Sources */,
+				890BD8EC2BD0F35B006B3880 /* WritingView.swift in Sources */,
+				890BD8F22BD0F43C006B3880 /* ViewWriting.swift in Sources */,
 				897A96382BCBB8CD003B546B /* NC1_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
